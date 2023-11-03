@@ -1,3 +1,14 @@
+virtme-ng (1.15-1ubuntu1) mantic; urgency=medium
+
+  * New version virtme-ng 1.15:
+    - support -- syntax to specify long exec commands
+    - fix command line bug with --overlay-rwdir
+    - properly clean up temporary uncompressed module files
+    - drop upstream deb packaging
+    - update documentation
+
+ -- Andrea Righi <andrea.righi@canonical.com>  Fri, 03 Nov 2023 09:18:03 +0100
+
 virtme-ng (1.14-1) unstable; urgency=medium
 
   * New version virtme-ng 1.13:
