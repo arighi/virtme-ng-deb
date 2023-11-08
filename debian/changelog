@@ -1,3 +1,10 @@
+virtme-ng (1.17-1ubuntu1) mantic; urgency=medium
+
+  * New version virtme-ng 1.17:
+    - fix version bump (--version)
+
+ -- Andrea Righi <andrea.righi@canonical.com>  Wed, 08 Nov 2023 13:51:31 +0200
+
 virtme-ng (1.16-1ubuntu1) mantic; urgency=medium
 
   * New version virtme-ng 1.16:
