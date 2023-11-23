@@ -1,3 +1,18 @@
+virtme-ng (1.18-1ubuntu1) noble; urgency=medium
+
+  * New version virtme-ng 1.18:
+    - allow to use pre-compiled vanilla kernels (via `-r v<VERSION>`)
+    - fix --user behavior to work both for scripts and interactive sessions
+    - allow to run main virtme-ng commands from the source directory
+    - use `vng -r` to run the same kernel of the host and `vng` to run the
+      kernel from the current working directory
+    - use 'virtme-ng' as default hostname for the guest
+    - fixed a permission bug that didn't allow to properly use /dev/stdout
+      when running a virtme-ng session as non-root
+    - virtme-ng-init: refactoring, fixes and clenups
+
+ -- Andrea Righi <andrea.righi@canonical.com>  Thu, 23 Nov 2023 11:42:17 +0100
+
 virtme-ng (1.17-1ubuntu1) mantic; urgency=medium
 
   * New version virtme-ng 1.17:
