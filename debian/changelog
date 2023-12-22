@@ -1,3 +1,18 @@
+virtme-ng (1.19-1ubuntu1) noble; urgency=medium
+
+  * New version virtme-ng 1.19:
+    - allow to run virtme-ng inside docker containers by @arighi
+    - always use kernel modules from the rootfs when --root is used by @arighi
+    - virtme-init: fix typo in when evaluating virtme_user by @arighi
+    - introduce argument --root-release by @arighi
+    - fix: restore terminal settings on exit by @arighi
+    - virtme-init: Drop usage of group when chwon'ing by @marcosps
+    - virtme: Fix infinite loop when finding kernel modules by @pinchartl
+    - virtme-init: Add default secure_path by @marcosps
+    - setup.py: Add requests to install_requires by @marcosps
+
+ -- Andrea Righi <andrea.righi@canonical.com>  Fri, 22 Dec 2023 08:16:02 +0100
+
 virtme-ng (1.18-1ubuntu1) noble; urgency=medium
 
   * New version virtme-ng 1.18:
