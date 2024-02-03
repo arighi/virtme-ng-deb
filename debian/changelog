@@ -1,3 +1,20 @@
+virtme-ng (1.20-1ubuntu1) noble; urgency=medium
+
+  * New version virtme-ng 1.20:
+    - virtme-ng: introduce NUMA support by @arighi
+    - virtme-ng: introduce -q/--quiet by @arighi
+    - virtme-ng: channel the return code of a command to the host by @arighi
+    - virtme-ng: print an explicit error when a valid pts is not found by
+      @arighi
+    - virtme-configkernel: disable lockdep by default by @kuba-moo
+    - virtme: let user disable KVM accel easily by @kuba-moo
+    - virtme_ng: update virtme_ng_init submodule to fix network init by @nkapron
+    - doc: update README.md formatting by @tklauser
+    - virtme-prep-kdir-mods: delete existing $MODDIR/modules.dep at beginning
+      by @winnscode
+
+ -- Andrea Righi <andrea.righi@canonical.com>  Sat, 03 Feb 2024 12:17:30 +0100
+
 virtme-ng (1.19-1ubuntu1) noble; urgency=medium
 
   * New version virtme-ng 1.19:
