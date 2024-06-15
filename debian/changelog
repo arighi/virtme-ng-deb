@@ -1,3 +1,57 @@
+virtme-ng (1.25-1ubuntu1) noble; urgency=medium
+
+  * New version virtme-ng 1.25:
+    - virtme-ng: redirect kernel log to stderr in interactive mode
+    - virtme-ng: generate drgn compatible memory dumps
+    - doc: replace the screenshot with a video in README.md
+    - virtme-init: always override sudoers
+    - virtme-ng: deprecate --skip-config
+    - virtme-ng: fix sending kernel log to stderr in script mode
+    - virtme-ng: return 255 on panic in script mode instead of hanging
+    - doc: add "Additional resources" section to README.md
+    - virtme: properly detect rootfs when /lib is symlinked to /usr/lib
+    - virtme: use --no-announce-submounts with virtiofsd
+    - setup.py: always add site-packages to PYTHONPATH
+    - virtme: always add modules required by microvm to the initramfs
+    - setup.py: automatically initialize virtme-ng-init submodule
+    - virtme-ng v1.21
+    - virtme: propagate /proc/sys/fs/nr_open from host to the guest
+    - virtme-ng: hide additional sudo settings
+    - virtme-ng: more robust parsing of upstream versions
+    - virtme-ng: improve help of --run command
+    - virtme-ng: print a hint to exit from the virtme-ng session
+    - virtme-ng v1.22
+    - setup.py: properly detect when the virtme-ng-init submodule is missing
+    - init: allow to mount legacy cgroupfs (v1)
+    - virtme-ng-init: resync submodule
+    - virtme-ng v1.23
+    - virtme-ng-init: resync submodule
+    - virtme: default to q35 architecture when kvm is not available
+    - virtme-ng v1.24
+    - virtme: make sure RTC is enabled with microvm
+    - virtme-ng: silent lint errors
+    - virtme-ng v1.25
+    - virtme: introduce loop network type
+    - virtme: allow user to ask for multiple network devices
+    - Add additional path for virtiofsd executable
+    - config: avoid accidentally specifying invalid cross-compile
+    - init: set the HOME env var if root
+    - config: always append virtme configs
+    - config: override the kernel config if asked
+    - config: option not to update if there is a config file
+    - vng: override kconfig with '--force'
+    - vng: --kconfig: override the .config
+    - readme: docker: recommend using --privileged option
+    - readme: docker: add virtiofsd
+    - qemu: remove unnecessary '-serial none' arg
+    - github: new test with KVM support
+    - virtme: fix traceback with --kdir when .config doesn't exist
+    - setup.py: fix logic around the virtme_ng_init submodule
+    - setup.py: Fix typo in *submodule* in warning
+    - Update README.md
+
+ -- Andrea Righi <andrea.righi@canonical.com>  Sat, 15 Jun 2024 22:33:30 +0200
+
 virtme-ng (1.20-1ubuntu1) noble; urgency=medium
 
   * New version virtme-ng 1.20:
