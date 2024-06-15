@@ -1,4 +1,11 @@
-virtme-ng (1.25-1ubuntu1) noble; urgency=medium
+virtme-ng (1.25+2-1ubuntu1) noble; urgency=medium
+
+  * add python3-requests build depend
+  * add argparse-manpage to build depend
+
+ -- Andrea Righi <andrea.righi@canonical.com>  Sat, 15 Jun 2024 22:58:34 +0200
+
+virtme-ng (1.25+1-1ubuntu1) noble; urgency=medium
 
   * New version virtme-ng 1.25:
     - virtme-ng: redirect kernel log to stderr in interactive mode
